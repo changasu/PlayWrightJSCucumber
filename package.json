@@ -1,0 +1,22 @@
+{
+  "name": "playwrightjscucumber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:all": "npx playwright test && npx cucumber-js"
+  },
+  "keywords": [],
+  "author": "Subba",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.1.1",
+    "@playwright/test": "^1.49.1",
+    "allure-commandline": "^2.32.0",
+    "allure-cucumberjs": "^3.0.7",
+    "allure-playwright": "^3.0.7",
+    "chai": "^5.1.2",
+    "node-fetch": "^3.3.2",
+    "playwright": "^1.49.1"
+  }
+}

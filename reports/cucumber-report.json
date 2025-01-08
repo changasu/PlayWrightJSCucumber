@@ -1,0 +1,221 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "playwright-cucumber-example;user-visits-playwright-homepage",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User visits Playwright homepage",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 384414805
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I visit the Playwright homepage",
+            "match": {
+              "location": "features/step_definitions/stepDefs.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 360437570
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I check the title",
+            "match": {
+              "location": "features/step_definitions/stepDefs.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18757117
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see \"Playwright\" in the title",
+            "match": {
+              "location": "features/step_definitions/stepDefs.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38293011
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 904713
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@uiTest",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "playwright-cucumber-example;verify-product-web-testing",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Verify Product Web Testing",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 81521050
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "User navigates to the Browserstack Homepage",
+            "match": {
+              "location": "features/step_definitions/stepDefs.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 737908551
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "User clicks on Product Menu",
+            "match": {
+              "location": "features/step_definitions/stepDefs.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 459153884
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 46665045
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@uiTest",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "playwright-cucumber-example;get-user-details",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Get user details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 81745690
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I have the endpoint \"/users/1\"",
+            "match": {
+              "location": "features/step_definitions/apistepDefs.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 235581
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I send a GET request to the endpoint",
+            "match": {
+              "location": "features/step_definitions/apistepDefs.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 170683126
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should receive a 200 status code",
+            "match": {
+              "location": "features/step_definitions/apistepDefs.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1273395
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the response should contain user details",
+            "match": {
+              "location": "features/step_definitions/apistepDefs.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4079012
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 35094903
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "playwright-cucumber-example",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Playwright Cucumber Example",
+    "tags": [],
+    "uri": "features/example.feature"
+  }
+]
