@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test:all": "npx playwright test && npx cucumber-js"
+    "test:all": "npx cucumber-js && npx playwright test"
   },
   "keywords": [],
   "author": "Subba",
